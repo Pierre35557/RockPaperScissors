@@ -124,8 +124,6 @@ namespace RockPaperScissorsKata
                     if (opponent == Action.Rock)
                         result = "Player Loses";
                     break;
-                default:
-                    break;
             }
 
             return result;
